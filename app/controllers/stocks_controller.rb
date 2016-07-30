@@ -11,6 +11,6 @@ class StocksController < ApplicationController
     else
       render status: :not_found, nothing:true
     end
+    
   end
-
 end
